@@ -1,5 +1,5 @@
 package com.st.java.practice.basicquestions;
-
+//
 //Given an integer n, check:
 // required out put
 //If divisible by 3 and 5 → print "FizzBuzz"
