@@ -1,5 +1,6 @@
 package com.st.java.practice.basicquestions;
 //Given an integer n, determine whether the number is positive, negative, or zero.
+// nested if condition  variable decleration in the program
 public class PositiveOrNegativeOrZero {
     static void main(String[] args) {
          int  number = 1;
