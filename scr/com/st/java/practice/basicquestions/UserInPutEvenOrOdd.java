@@ -3,6 +3,7 @@ package com.st.java.practice.basicquestions;
 import java.util.Scanner;
 
 //Given an integer n from user input, determine whether the number is even or odd.
+// only we can give the  single input for this code
 public class UserInPutEvenOrOdd {
     static void main(String[] args) {
         Scanner sc =new Scanner(System.in);
