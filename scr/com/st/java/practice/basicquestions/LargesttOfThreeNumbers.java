@@ -1,6 +1,6 @@
 package com.st.java.practice.basicquestions;
 // largest of three numbers  by using if conditions  variable are decleare in the problem without taking inputs from user
-public class LargesttOfTreeNumbers {
+public class LargesttOfThreeNumbers {
     static void main(String[] args) {
 
         int a = 2;
