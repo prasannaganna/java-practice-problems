@@ -2,22 +2,18 @@ package loopsquestions;
 
 import java.util.Scanner;
 
-// product of the digit
-public class ProductOfDigitsInNumber {
+public class ReverseOfNumber {
     static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("enter the number : " );
-        int n = sc.nextInt();
-        int product =1;
+        int n = sc.nextInt();;
         int lastdigit;
-       // for(int i=1;i<=n;i++)
-         while(n>0){
+        int reverse = 0;
+        while (n>0){
             lastdigit = n%10;
-            product = product*lastdigit;
+            reverse = reverse*10+lastdigit;
             n=n/10;
-
         }
-        System.out.println(product);
-        sc.close();
+        System.out.println(reverse);
     }
 }
