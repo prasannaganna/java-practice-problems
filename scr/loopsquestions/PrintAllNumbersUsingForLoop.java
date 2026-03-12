@@ -3,7 +3,7 @@ package loopsquestions;
 import java.util.Scanner;
 
 //Print numbers from 1 to n using for loop
-public class PrintAllNumbers {
+public class PrintAllNumbersUsingForLoop {
     static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
        int n = sc.nextInt();
