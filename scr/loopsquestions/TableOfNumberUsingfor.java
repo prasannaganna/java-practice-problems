@@ -8,7 +8,7 @@ public class TableOfNumberUsingfor {
         System.out.println("enter the number : " );
         int n = sc.nextInt();
         int result;
-        for(int i=1;i<=n;i++)
+        for(int i=1;i<=10;i++)
         {
             result = n*i;
             System.out.println(n + "*" + i  + "=" + result);
