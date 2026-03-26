@@ -1,7 +1,7 @@
 package Arrays;
 
 import static java.util.Collections.swap;
-
+// sorting the elements with the bobble sorting in ascending order
 public class SortingArray {
     static void main(String[] args) {
          int array[]={2,5,3,6,9,8};
