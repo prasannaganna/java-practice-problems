@@ -9,7 +9,7 @@ public class PalindromeNumber {
         System.out.println("enter the number : " );
         int n = sc.nextInt();
         int orginal =n;
-        int reverse=0;
+        int reverse = 0;
         int lastdigit ;
         while(n>0){
             lastdigit =n%10;
